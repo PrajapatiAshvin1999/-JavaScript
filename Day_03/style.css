@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: rgb(109, 152, 153);
+   text-align: center;
+   margin-top: 10%;
+}
+.container{
+    background-color: rgb(136, 136, 191);
+    width: 400px;
+    height:300px;
+    font-size: 30px;
+    position: relative;
+    left: 34%;
+    border-radius: 20px;
+    box-shadow: -8px -8px 15px black;
+    padding: 20px;
+    
+
+}
+.container span{
+    font-size: 60px;
+}
+.container .btn{
+     background-color: rgb(113, 78, 145);
+     color: white;
+     padding: 10px;
+     border-radius: 15px;
+     border: none;
+}
+.container .btn:hover{
+    cursor: pointer;
+    background-color: rgb(116, 90, 170);
+}
